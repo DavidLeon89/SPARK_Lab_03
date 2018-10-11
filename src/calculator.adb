@@ -4,7 +4,7 @@ package body Calculator with SPARK_Mode => On is
      (First_Operand  : Integer;
       Second_Operand : Integer) return Integer is
    begin
-      return 0;
+      return (First_Operand + Second_Operand);
    end Add;
 
    procedure Subtract
@@ -12,7 +12,7 @@ package body Calculator with SPARK_Mode => On is
       Second_Operand : Integer;
       Result         : out Integer) is
    begin
-      Result := 0;
+      Result := Add(First_Operand, -Second_Operand);
    end Subtract;
 
    procedure Multiply

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Arkhen\Documents\GitHub\SPARK_Lab_03\src\calculator.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Arkhen\Documents\GitHub\SPARK_Lab_03\src\calculator.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

@@ -1,0 +1,58 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -g
+A -gnato
+A -fstack-check
+A -gnata
+A -gnat12
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U calculator%b		calculator.adb		32f8080d OO PK
+
+U calculator%s		calculator.ads		c4ef762a OO PK
+
+D calculator.ads	20181011111912 c4ef762a calculator%s
+D calculator.adb	20181011111922 f6177e27 calculator%b
+D system.ads		20180524051738 32a08138 system%s
+X 1 calculator.ads
+1K9*Calculator 88l5 88e15 2|1b14 36l5 36t15
+2i4*Last_Quotient{integer}
+3i4*Last_Remainder{integer}
+5V13*Add{integer} 6>7 7>7 22r12 2|3b13 8l8 8t11 15s17
+6i7 First_Operand{integer} 13r12 14r11 17r12 18r45 22r25 2|4b7 7r15
+7i7 Second_Operand{integer} 13r34 14r45 17r34 18r11 22r41 2|5b7 7r31
+31U14*Subtract 32>7 33>7 34<7 2|10b14 16l8 16t16
+32i7 First_Operand{integer} 41r12 42r11 45r12 46r12 50r21 2|11b7 15r21
+33i7 Second_Operand{integer} 41r34 42r44 45r35 46r44 50r37 2|12b7 15r37
+34i7 Result{integer} 50r12 2|13b7 15m7
+56U14*Multiply 57>7 58>7 59<7 2|18b14 24l8 24t16
+57i7 First_Operand{integer} 2|19b7
+58i7 Second_Operand{integer} 2|20b7
+59i7 Result{integer} 2|21b7 23m7
+70U14*Divide 71>7 72>7 73<7 74<7 2|26b14 34l8 34t14
+71i7 Dividend{integer} 2|27b7
+72i7 Divisor{integer} 2|28b7
+73i7 Quotient{integer} 2|29b7 32m7
+74i7 Remainder{integer} 2|30b7 33m7
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS calculator__add 0
+GG EK_GLOBALS calculator__add local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS calculator__subtract 1 calculator__add
+GG EK_GLOBALS calculator__subtract local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS calculator__multiply 0
+GG EK_GLOBALS calculator__multiply local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS calculator__divide 0
+GG EK_GLOBALS calculator__divide local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS calculator 0
+GG EK_GLOBALS calculator local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 2 calculator__last_quotient calculator__last_remainder FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

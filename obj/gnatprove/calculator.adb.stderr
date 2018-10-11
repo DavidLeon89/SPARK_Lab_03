@@ -1,0 +1,5 @@
+calculator.adb:15:36: medium: overflow check might fail (e.g. when Result = 0 and Second_Operand = -2147483648)[#4]
+calculator.ads:57:07: warning: unused variable "First_Operand"[#2]
+calculator.ads:58:07: warning: unused variable "Second_Operand"[#3]
+calculator.ads:71:07: warning: unused variable "Dividend"[#0]
+calculator.ads:72:07: warning: unused variable "Divisor"[#1]
